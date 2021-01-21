@@ -10,8 +10,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:helloworld.helloWorld",
-    "onCommand:helloworld.displayTime"
+    "onCommand:helloworld.helloWorld"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -19,10 +18,6 @@
       {
         "command": "helloworld.helloWorld",
         "title": "Hello VSCode!!!"
-      },
-      {
-        "command": "helloworld.displayTime",
-        "title": "Display the time"
       }
     ]
   },
